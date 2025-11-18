@@ -3,20 +3,9 @@ import Nav from 'react-bootstrap/Nav';
 function BottomFooter() {
   return (
     <>
-      <Nav className="justify-content-center" activeKey="/home">
+      <Nav className="justify-content-center bg-dark" activeKey="/home">
         <Nav.Item>
-          <Nav.Link href="/home">Active</Nav.Link>
-        </Nav.Item>
-        <Nav.Item>
-          <Nav.Link eventKey="link-1">Link</Nav.Link>
-        </Nav.Item>
-        <Nav.Item>
-          <Nav.Link eventKey="link-2">Link</Nav.Link>
-        </Nav.Item>
-        <Nav.Item>
-          <Nav.Link eventKey="disabled" disabled>
-            Disabled
-          </Nav.Link>
+          <Nav.Link href="/home">&copy& Copyright</Nav.Link>
         </Nav.Item>
       </Nav>
     </>

@@ -12,7 +12,7 @@ class AllTheBooks extends Component {
                     <Row className="d-flex flex-wrap justify-content-center">
                         { library.map((book) => {
                             return(
-                            <Card Col key={book.id} xs={12} sm={6} md={4} lg={3} className="mb-2 me-1 w-25">
+                            <Card Col key={book.id} xs={12} sm={6} md={4} lg={3} className="mb-4 me-4 w-25">
                                 <Card.Img variant='book' src={book.img} />
                                 <Card.Body>
                                     <Card.Title>{book.title}</Card.Title>
